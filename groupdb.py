@@ -88,7 +88,7 @@ fig_main_chart.update_traces(
 )
 
 # Set the size of the chart for the main chart
-fig_main_chart.update_layout(width=900, height=900)
+fig_main_chart.update_layout(width=900, height=800)
 
 # Render the treemap in Streamlit for the main chart
 st.plotly_chart(fig_main_chart)
