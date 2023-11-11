@@ -1,0 +1,513 @@
+Date,Member,Activity,Value,Feeling,Duration(Minutes)
+08/10/2023,Karl,Wake up and overthink,Low,Positive,10
+08/10/2023,Karl,Fix the Bed,Low,Positive,5
+08/10/2023,Karl,Brush Teeth and Wash Face,Medium,Negative,5
+08/10/2023,Karl,Ate Breakfast ,Medium,Positive,20
+08/10/2023,Karl,Took a Shower,High,Positive,20
+08/10/2023,Karl,Preparing For Church,Medium,Positive,10
+08/10/2023,Karl,Drove to Church,Medium,Positive,20
+08/10/2023,Karl,Attended Mass,High,Positive,60
+08/10/2023,Karl,Went to Market for Veggies,Medium,Neutral,30
+08/10/2023,Karl,Drove to Mall,Medium,Positive,30
+08/10/2023,Karl,Wandering in the Mall,High,Positive,60
+08/10/2023,Karl,Ate Lunch,High,Positive,30
+08/10/2023,Karl,Went Shopping,Medium,Positive,60
+08/10/2023,Karl,Doing Groceries,Medium,Positive,120
+08/10/2023,Karl,Went Home,Medium,Neutral,60
+08/10/2023,Karl,Unpacking the Groceries,Low,Neutral,20
+08/10/2023,Karl,Changed Clothes,Low,Neutral,10
+08/10/2023,Karl,Interval of 25mns Study and 5mns Break,High,Neutral,180
+08/10/2023,Karl,Ate Dinner,Medium,Neutral,30
+08/10/2023,Karl,Washing Dishes,Low,Neutral,20
+08/10/2023,Karl,Using Phone,Low,Neutral,10
+08/10/2023,Karl,Doing Activities,High,Neutral,25
+08/10/2023,Karl,Using Phone,Low,Neutral,5
+08/10/2023,Karl,Scanning Notes,Medium,Neutral,30
+08/10/2023,Karl,Workout,High,Negative,30
+08/10/2023,Karl,Took a Shower,Medium,Positive,20
+08/10/2023,Karl,Getting Ready for Bed,Low,Neutral,10
+08/10/2023,Karl,Using Phone,Low,Positive,30
+08/10/2023,Karl,Sleep,High,Neutral,360
+08/10/2023,Karl,Woke Up,Low,Positive,5
+08/10/2023,Karl,Took a Shower and dressing up for School,High,Positive,25
+08/10/2023,Karl,Ate Breakfast ,High,Positive,30
+09/10/2023,Karl,Getting Ready for School,Medium,Positive,20
+09/10/2023,Karl,Commuting,High,Neutral,100
+09/10/2023,Karl,School,High,Neutral,630
+09/10/2023,Karl,Commuting,Medium,Negative,100
+09/10/2023,Karl,Got home and dressing up for casual colthes,Medium,Negative,20
+09/10/2023,Karl,Ate Dinner,High,Neutral,30
+09/10/2023,Karl,Washing Dishes,Low,Neutral,30
+09/10/2023,Karl,Interval of 25mns Study and 5mns Break,High,Neutral,60
+09/10/2023,Karl,Getting ready for bed,Low,Neutral,20
+09/10/2023,Karl,Using Phone,Low,Neutral,10
+09/10/2023,Karl,Sleep,High,Neutral,510
+09/10/2023,Keath,Sleeping,High,Positive,300
+09/10/2023,Keath,Morning Routine,Medium,Negative,60
+09/10/2023,Keath,Eating breakfast,High,Positive,20
+09/10/2023,Keath,Prepare to go out to school,Medium,Negative,10
+09/10/2023,Keath,commute,High,Neutral,90
+09/10/2023,Keath,Class,High,Positive,120
+09/10/2023,Keath,lunch,High,Positive,60
+09/10/2023,Keath,Class,High,Positive,120
+09/10/2023,Keath,Commute,Medium,Neutral,90
+09/10/2023,Keath,Dinner,High,Positive,60
+09/10/2023,Keath,Chill time,Low,Positive,120
+09/10/2023,Keath,Sleeping,High,Positive,480
+10/10/2023,Karl,Woke Up,Low,Positive,5
+10/10/2023,Karl,Washing Clothes,Medium,Positive,60
+10/10/2023,Karl,Ate Breakfast ,High,Positive,25
+10/10/2023,Karl,Interval of 25mns Study and 5mns Break,High,Neutral,210
+10/10/2023,Karl,Ate Lunch,High,Positive,25
+10/10/2023,Karl,Took a shower,High,Positive,25
+10/10/2023,Karl,Getting Ready for School,Medium,Positive,10
+10/10/2023,Karl,Commuting,Medium,Negative,100
+10/10/2023,Karl,School,High,Neutral,200
+10/10/2023,Karl,Commuting,Low,Negative,100
+10/10/2023,Karl,Got home and dressing up for casual colthes,Medium,Negative,20
+10/10/2023,Karl,Ate Dinner,High,Neutral,30
+10/10/2023,Karl,Washing Dishes,Low,Neutral,30
+10/10/2023,Karl,Interval of 25mns Study and 5mns Break,High,Neutral,60
+10/10/2023,Karl,Getting ready for bed,Low,Neutral,20
+10/10/2023,Karl,Using Phone,Low,Neutral,10
+10/10/2023,Karl,Sleep,High,Neutral,360
+10/10/2023,Michael,Lunch,High,Positive,60
+10/10/2023,Michael,Dinner,High,Positive,90
+10/10/2023,Michael,Gaming,Low,Positive,132
+10/10/2023,Michael,Academic Tasks,Medium,Negative,120
+10/10/2023,Michael,GroupMeetings,Medium,Negative,180
+10/10/2023,Michael,Reading,Medium,Positive,60
+10/10/2023,Keath,Morning Routine,High,Neutral,60
+10/10/2023,Keath,Eating breakfast,High,Positive,20
+10/10/2023,Keath,Class,High,Neutral,120
+10/10/2023,Keath,Class,High,Neutral,90
+10/10/2023,Keath,Lunch,High,Positive,30
+10/10/2023,Keath,Prepare to go out to school,High,Neutral,20
+10/10/2023,Keath,Commute,Medium,Positive,90
+10/10/2023,Keath,Class,High,Positive,150
+10/10/2023,Keath,Commute,High,Neutral,120
+10/10/2023,Keath,Dinner,High,Positive,60
+10/10/2023,Keath,Do Assigned Task,High,Positive,120
+10/10/2023,Keath,Work on Personal Projects,Medium,Positive,120
+11/10/2023,Karl,Woke Up,Low,Positive,5
+11/10/2023,Karl,Took a Shower and dressing up for School,High,Positive,25
+11/10/2023,Karl,Ate Breakfast ,High,Positive,30
+11/10/2023,Karl,Getting Ready for School,Medium,Positive,20
+11/10/2023,Karl,Commuting,High,Neutral,100
+11/10/2023,Karl,School,High,Neutral,540
+11/10/2023,Karl,Commuting,Medium,Negative,100
+11/10/2023,Karl,Got home and dressing up for casual colthes,Medium,Negative,20
+11/10/2023,Karl,Using Phone,Low,Neutral,90
+11/10/2023,Karl,Ate Dinner,High,Neutral,30
+11/10/2023,Karl,Washing Dishes,Low,Neutral,30
+11/10/2023,Karl,Interval of 25mns Study and 5mns Break,High,Neutral,60
+11/10/2023,Karl,Getting ready for bed,Low,Neutral,20
+11/10/2023,Karl,Using Phone,Low,Neutral,10
+11/10/2023,Karl,Sleep,High,Neutral,360
+11/10/2023,Michael,Lunch,High,Positive,60
+11/10/2023,Michael,Dinner,High,Positive,90
+11/10/2023,Michael,LoungeDuty,Medium,Negative,420
+11/10/2023,Michael,Gaming,Low,Negative,60
+11/10/2023,Michael,Academic Tasks,Medium,Negative,360
+11/10/2023,Michael,Reading,Medium,Positive,60
+11/10/2023,Keath,Sleeping,High,Positive,60
+11/10/2023,Keath,morning Routine,High,Neutral,60
+11/10/2023,Keath,Watch Anime,High,Positive,60
+11/10/2023,Keath,Setup Notion,Low,Positive,120
+11/10/2023,Keath,Lunch,High,Positive,60
+11/10/2023,Keath,Setup Notion,Low,Positive,30
+11/10/2023,Keath,Play Video Games,Low,Positive,240
+11/10/2023,Keath,Do Assigned Task,High,Negative,120
+11/10/2023,Keath,Play Video Games,Low,Positive,120
+11/10/2023,Keath,Dinner,High,Neutral,60
+11/10/2023,Keath,Work on Personal Projects,Medium,Positive,120
+11/10/2023,Keath,Sleeping,High,Positive,420
+12/10/2023,Karl,Woke Up,Low,Positive,5
+12/10/2023,Karl,Took a Shower and dressing up for School,High,Positive,25
+12/10/2023,Karl,Ate Breakfast ,High,Positive,30
+12/10/2023,Karl,Getting Ready for School,Medium,Positive,20
+12/10/2023,Karl,Commuting,High,Neutral,100
+12/10/2023,Karl,School,High,Neutral,630
+12/10/2023,Karl,Commuting,Medium,Negative,100
+12/10/2023,Karl,Got home and dressing up for casual colthes,Medium,Negative,20
+12/10/2023,Karl,Ate Dinner,High,Neutral,30
+12/10/2023,Karl,Washing Dishes,Low,Neutral,30
+12/10/2023,Karl,Interval of 25mns Study and 5mns Break,High,Neutral,60
+12/10/2023,Karl,Getting ready for bed,Low,Neutral,20
+12/10/2023,Karl,Using Phone,Low,Neutral,10
+12/10/2023,Karl,Sleep,High,Neutral,360
+12/10/2023,Michael,Morning Class,Medium,Positive,240
+12/10/2023,Michael,Lunch,High,Positive,60
+12/10/2023,Michael,Dinner,High,Positive,90
+12/10/2023,Michael,LoungeDuty,Medium,Negative,120
+12/10/2023,Michael,Gaming,Low,Negative,132
+12/10/2023,Michael,Academic Tasks,Medium,Negative,60
+12/10/2023,Michael,GroupMeetings,Medium,Positive,180
+12/10/2023,Michael,Reading,Medium,Positive,60
+12/10/2023,Keath,morning Routine,High,Positive,60
+12/10/2023,Keath,Eating breakfast,High,Positive,30
+12/10/2023,Keath,Class,High,Neutral,150
+12/10/2023,Keath,Class,High,Neutral,90
+12/10/2023,Keath,Lunch,High,Positive,30
+12/10/2023,Keath,Prepare to go out to school,High,Negative,30
+12/10/2023,Keath,Commute,Medium,Positive,90
+12/10/2023,Keath,Class,High,Positive,150
+12/10/2023,Keath,Commute,Medium,Negative,120
+12/10/2023,Keath,Dinner,High,Positive,60
+12/10/2023,Keath,Chill time,Low,Positive,120
+13/10/2023,Karl,Woke Up,Low,Positive,5
+13/10/2023,Karl,Took a Shower and dressing up for School,High,Positive,25
+13/10/2023,Karl,Ate Breakfast ,High,Positive,30
+13/10/2023,Karl,Getting Ready for School,Medium,Positive,20
+13/10/2023,Karl,Commuting,High,Neutral,100
+13/10/2023,Karl,School,High,Neutral,630
+13/10/2023,Karl,Commuting,Medium,Negative,100
+13/10/2023,Karl,Got home and dressing up for casual colthes,Medium,Negative,20
+13/10/2023,Karl,Ate Dinner,High,Neutral,30
+13/10/2023,Karl,Washing Dishes,Low,Neutral,30
+13/10/2023,Karl,Interval of 25mns Study and 5mns Break,High,Neutral,60
+13/10/2023,Karl,Getting ready for bed,Low,Neutral,20
+13/10/2023,Karl,Using Phone,Low,Neutral,10
+13/10/2023,Karl,Sleep,High,Neutral,360
+13/10/2023,Michael,Morning Class,Medium,Negative,240
+13/10/2023,Michael,Lunch,High,Positive,30
+13/10/2023,Michael,Afternoon Class,Medium,Negative,270
+13/10/2023,Michael,Dinner,High,Positive,90
+13/10/2023,Michael,Gaming,Low,Positive,120
+13/10/2023,Michael,Academic Tasks,Medium,Negative,300
+13/10/2023,Michael,Reading,Medium,Positive,60
+13/10/2023,Keath,Sleeping,High,Positive,480
+13/10/2023,Keath,morning Routine,High,Positive,60
+13/10/2023,Keath,Eating breakfast,High,Positive,60
+13/10/2023,Keath,Chill time,Low,Positive,180
+13/10/2023,Keath,lunch,High,Positive,30
+13/10/2023,Keath,Prepare to go out to school,High,Negative,20
+13/10/2023,Keath,Commute,High,Neutral,90
+13/10/2023,Keath,Class,High,Neutral,150
+13/10/2023,Keath,Commute,Medium,Neutral,120
+13/10/2023,Keath,Chill time,Low,Positive,60
+13/10/2023,Keath,Dinner,High,Positive,60
+13/10/2023,Keath,Do Assigned Task,High,Positive,120
+13/10/2023,Keath,Chill time,Low,Positive,60
+14/10/2023,Karl,Woke Up,Low,Positive,5
+14/10/2023,Karl,Took a Shower and dressing up for School,High,Positive,25
+14/10/2023,Karl,Ate Breakfast ,High,Positive,30
+14/10/2023,Karl,Getting Ready for School,Medium,Positive,20
+14/10/2023,Karl,Commuting,High,Neutral,100
+14/10/2023,Karl,School,High,Neutral,180
+14/10/2023,Karl,Wandering around the City,Low,Positive,210
+14/10/2023,Karl,Went Home/Commuting,Medium,Negative,100
+14/10/2023,Karl,Washing Clothes,Medium,Neutral,60
+14/10/2023,Karl,Using Phone,Low,Positive,20
+14/10/2023,Karl,Interval of 25mns Study and 5mns Break,High,Neutral,180
+14/10/2023,Karl,Ate Dinner,High,Neutral,30
+14/10/2023,Karl,Washing Dishes,Low,Neutral,30
+14/10/2023,Karl,Using Phone,Low,Neutral,60
+14/10/2023,Karl,Getting ready for bed,Low,Neutral,20
+14/10/2023,Karl,Using Phone,Low,Neutral,10
+14/10/2023,Karl,Sleep,High,Neutral,420
+14/10/2023,Michael,Breakfast,High,Positive,60
+14/10/2023,Michael,Morning Class,Medium,Negative,120
+14/10/2023,Michael,Lunch,High,Positive,60
+14/10/2023,Michael,Dinner,High,Positive,90
+14/10/2023,Michael,Gaming,Low,Positive,150
+14/10/2023,Michael,Academic Tasks,Medium,Negative,420
+14/10/2023,Michael,Reading,Medium,Neutral,60
+14/10/2023,Keath,Sleeping,High,Positive,540
+14/10/2023,Keath,Morning Routine,High,Positive,60
+14/10/2023,Keath,Class,High,Positive,60
+14/10/2023,Keath,lunch,High,Positive,60
+14/10/2023,Keath,Chill time,Low,Positive,120
+14/10/2023,Keath,Play Video Games,Low,Positive,240
+14/10/2023,Keath,Watch Movies,Low,Positive,60
+14/10/2023,Keath,Read Manga,Low,Positive,30
+14/10/2023,Keath,Dinner,High,Positive,60
+14/10/2023,Keath,Do Assigned Task,Medium,Neutral,120
+14/10/2023,Keath,Chill time,Low,Positive,60
+15/10/2023,Karl,Wake up and overthink,Low,Positive,10
+15/10/2023,Karl,Fix the Bed,Low,Positive,5
+15/10/2023,Karl,Brush Teeth and Wash Face,Medium,Negative,5
+15/10/2023,Karl,Ate Breakfast ,Medium,Positive,20
+15/10/2023,Karl,Took a Shower,High,Positive,20
+15/10/2023,Karl,Preparing For Church,Medium,Positive,10
+15/10/2023,Karl,Drove to Church,Medium,Positive,20
+15/10/2023,Karl,Attended Mass,High,Positive,60
+15/10/2023,Karl,Went to Market for Veggies,Medium,Neutral,30
+15/10/2023,Karl,Drove to Mall,Medium,Positive,30
+15/10/2023,Karl,Wandering in the Mall,High,Positive,60
+15/10/2023,Karl,Ate Lunch,High,Positive,30
+15/10/2023,Karl,Went Shopping,Medium,Positive,60
+15/10/2023,Karl,Doing Groceries,Medium,Positive,120
+15/10/2023,Karl,Went Home,Medium,Neutral,60
+15/10/2023,Karl,Unpacking the Groceries,Low,Neutral,20
+15/10/2023,Karl,Changed Clothes,Low,Neutral,10
+15/10/2023,Karl,Interval of 25mns Study and 5mns Break,High,Neutral,180
+15/10/2023,Karl,Ate Dinner,Medium,Neutral,30
+15/10/2023,Karl,Washing Dishes,Low,Neutral,20
+15/10/2023,Karl,Using Phone,Low,Neutral,10
+15/10/2023,Karl,Doing Activities,High,Neutral,25
+15/10/2023,Karl,Using Phone,Low,Neutral,5
+15/10/2023,Karl,Scanning Notes,Medium,Neutral,30
+15/10/2023,Karl,Workout,High,Negative,30
+15/10/2023,Karl,Took a Shower,Medium,Positive,20
+15/10/2023,Karl,Getting Ready for Bed,Low,Neutral,10
+15/10/2023,Karl,Using Phone,Low,Positive,30
+15/10/2023,Karl,Sleep,High,Neutral,360
+15/10/2023,Michael,Breakfast,High,Positive,60
+15/10/2023,Michael,Lunch,High,Positive,60
+15/10/2023,Michael,Dinner,High,Negative,90
+15/10/2023,Michael,Gaming,Low,Neutral,162
+15/10/2023,Michael,Academic Tasks,Medium,Negative,360
+15/10/2023,Michael,GroupMeetings,Medium,Negative,150
+15/10/2023,Michael,Reading,Medium,Negative,60
+15/10/2023,Keath,Sleeping,High,Positive,450
+16/10/2023,Karl,Woke Up,Low,Positive,5
+16/10/2023,Karl,Took a Shower and dressing up for School,High,Positive,25
+16/10/2023,Karl,Ate Breakfast ,High,Positive,30
+16/10/2023,Karl,Getting Ready for School,Medium,Positive,20
+16/10/2023,Karl,Commuting,High,Neutral,100
+16/10/2023,Karl,School,High,Neutral,630
+16/10/2023,Karl,Commuting,Medium,Negative,100
+16/10/2023,Karl,Got home and dressing up for casual colthes,Medium,Negative,20
+16/10/2023,Karl,Ate Dinner,High,Neutral,30
+16/10/2023,Karl,Washing Dishes,Low,Neutral,30
+16/10/2023,Karl,Interval of 25mns Study and 5mns Break,High,Neutral,60
+16/10/2023,Karl,Getting ready for bed,Low,Neutral,20
+16/10/2023,Karl,Using Phone,Low,Neutral,10
+16/10/2023,Karl,Sleep,High,Neutral,510
+16/10/2023,Michael,Breakfast,High,Positive,30
+16/10/2023,Michael,Morning Class,Medium,Neutral,240
+16/10/2023,Michael,Lunch,High,Positive,30
+16/10/2023,Michael,Afternoon Class,Medium,Negative,270
+16/10/2023,Michael,Dinner,High,Neutral,90
+16/10/2023,Michael,Gaming,Low,Positive,132
+16/10/2023,Michael,Academic Tasks,Medium,Neutral,240
+16/10/2023,Michael,Reading,Medium,Negative,60
+16/10/2023,Keath,Morning Routine,High,Positive,30
+16/10/2023,Keath,Chill time,Low,Positive,120
+16/10/2023,Keath,Sleeping,High,Positive,480
+16/10/2023,Keath,Morning Routine,High,Neutral,60
+16/10/2023,Keath,Eating breakfast,High,Neutral,20
+16/10/2023,Keath,Prepare to go out to school,High,Negative,10
+16/10/2023,Keath,Commute,Medium,Neutral,90
+16/10/2023,Keath,Class,High,Neutral,150
+16/10/2023,Keath,Lunch,High,Positive,90
+16/10/2023,Keath,Chill time,Low,Neutral,30
+16/10/2023,Keath,Class,High,Positive,120
+16/10/2023,Keath,Commute,Medium,Neutral,120
+16/10/2023,Keath,Dinner,High,Positive,60
+16/10/2023,Keath,Chill time,Low,Positive,120
+16/10/2023,Keath,Do Assigned Task,High,Positive,60
+16/10/2023,Keath,Sleeping,High,Positive,420
+17/10/2023,Karl,Woke Up,Low,Positive,5
+17/10/2023,Karl,Washing Clothes,Medium,Positive,60
+17/10/2023,Karl,Ate Breakfast ,High,Positive,25
+17/10/2023,Karl,Interval of 25mns Study and 5mns Break,High,Neutral,210
+17/10/2023,Karl,Ate Lunch,High,Positive,25
+17/10/2023,Karl,Took a shower,High,Positive,25
+17/10/2023,Karl,Getting Ready for School,Medium,Positive,10
+17/10/2023,Karl,Commuting,Medium,Negative,100
+17/10/2023,Karl,School,High,Neutral,200
+17/10/2023,Karl,Commuting,Low,Negative,100
+17/10/2023,Karl,Got home and dressing up for casual colthes,Medium,Negative,20
+17/10/2023,Karl,Ate Dinner,High,Neutral,30
+17/10/2023,Karl,Washing Dishes,Low,Neutral,30
+17/10/2023,Karl,Interval of 25mns Study and 5mns Break,High,Neutral,60
+17/10/2023,Karl,Getting ready for bed,Low,Neutral,20
+17/10/2023,Karl,Using Phone,Low,Neutral,10
+17/10/2023,Karl,Sleep,High,Neutral,360
+17/10/2023,Michael,Breakfast,High,Positive,60
+17/10/2023,Michael,Morning Class,Medium,Negative,240
+17/10/2023,Michael,Lunch,High,Positive,60
+17/10/2023,Michael,Dinner,High,Positive,90
+17/10/2023,Michael,Gaming,Low,Positive,114
+17/10/2023,Michael,Academic Tasks,Medium,Negative,180
+17/10/2023,Michael,GroupMeetings,Medium,Negative,240
+17/10/2023,Michael,Reading,Medium,Neutral,60
+17/10/2023,Keath,Eating breakfast,High,Positive,30
+17/10/2023,Keath,Morning Routine,High,Positive,60
+17/10/2023,Keath,Class,High,Neutral,150
+17/10/2023,Keath,Class,High,Neutral,90
+17/10/2023,Keath,Lunch,High,Neutral,30
+17/10/2023,Keath,Prepare to go out to school,High,Negative,30
+17/10/2023,Keath,Commute,Medium,Neutral,90
+17/10/2023,Keath,Class,High,Positive,150
+17/10/2023,Keath,Commute,Medium,Neutral,120
+17/10/2023,Keath,Dinner,High,Positive,60
+17/10/2023,Keath,Chill time,Low,Positive,60
+17/10/2023,Keath,Play Video Games,Low,Positive,45
+18/10/2023,Karl,Woke Up,Low,Positive,5
+18/10/2023,Karl,Took a Shower and dressing up for School,High,Positive,25
+18/10/2023,Karl,Ate Breakfast ,High,Positive,30
+18/10/2023,Karl,Getting Ready for School,Medium,Positive,20
+18/10/2023,Karl,Commuting,High,Neutral,100
+18/10/2023,Karl,School,High,Neutral,540
+18/10/2023,Karl,Commuting,Medium,Negative,100
+18/10/2023,Karl,Got home and dressing up for casual colthes,Medium,Negative,20
+18/10/2023,Karl,Using Phone,Low,Neutral,90
+18/10/2023,Karl,Ate Dinner,High,Neutral,30
+18/10/2023,Karl,Washing Dishes,Low,Neutral,30
+18/10/2023,Karl,Interval of 25mns Study and 5mns Break,High,Neutral,60
+18/10/2023,Karl,Getting ready for bed,Low,Neutral,20
+18/10/2023,Karl,Using Phone,Low,Neutral,10
+18/10/2023,Karl,Sleep,High,Neutral,360
+18/10/2023,Michael,Lunch,High,Positive,60
+18/10/2023,Michael,Dinner,High,Positive,90
+18/10/2023,Michael,LoungeDuty,Medium,Negative,300
+18/10/2023,Michael,Gaming,Low,Positive,132
+18/10/2023,Michael,Academic Tasks,Medium,Negative,180
+18/10/2023,Michael,GroupMeetings,Medium,Negative,240
+18/10/2023,Michael,Reading,Medium,Positive,60
+18/10/2023,Keath,Watch Movies,Low,Positive,180
+18/10/2023,Keath,Sleeping,High,Positive,420
+18/10/2023,Keath,Morning Routine,High,Positive,90
+18/10/2023,Keath,Chill time,Low,Positive,150
+18/10/2023,Keath,Read Manga,Low,Positive,30
+18/10/2023,Keath,Lunch,High,Positive,90
+18/10/2023,Keath,Work on Personal Projects,Medium,Positive,243
+18/10/2023,Keath,Dinner,High,Positive,90
+18/10/2023,Keath,Chill time,Low,Positive,210
+18/10/2023,Keath,Sleeping,High,Positive,390
+19/10/2023,Karl,Woke Up,Low,Positive,5
+19/10/2023,Karl,Took a Shower and dressing up for School,High,Positive,25
+19/10/2023,Karl,Ate Breakfast ,High,Positive,30
+19/10/2023,Karl,Getting Ready for School,Medium,Positive,20
+19/10/2023,Karl,Commuting,High,Neutral,100
+19/10/2023,Karl,School,High,Neutral,630
+19/10/2023,Karl,Commuting,Medium,Negative,100
+19/10/2023,Karl,Got home and dressing up for casual colthes,Medium,Negative,20
+19/10/2023,Karl,Ate Dinner,High,Neutral,30
+19/10/2023,Karl,Washing Dishes,Low,Neutral,30
+19/10/2023,Karl,Interval of 25mns Study and 5mns Break,High,Neutral,60
+19/10/2023,Karl,Getting ready for bed,Low,Neutral,20
+19/10/2023,Karl,Using Phone,Low,Neutral,10
+19/10/2023,Karl,Sleep,High,Neutral,360
+19/10/2023,Michael,Breakfast,High,Positive,60
+19/10/2023,Michael,Morning Class,Medium,Positive,240
+19/10/2023,Michael,Lunch,High,Positive,60
+19/10/2023,Michael,Dinner,High,Positive,90
+19/10/2023,Michael,Gaming,Low,Positive,90
+19/10/2023,Michael,Academic Tasks,Medium,Negative,120
+19/10/2023,Michael,GroupMeetings,Medium,Negative,240
+19/10/2023,Michael,Reading,Medium,Positive,60
+19/10/2023,Keath,lunch,High,Positive,60
+19/10/2023,Keath,Morning Routine,High,Neutral,60
+19/10/2023,Keath,Class,High,Positive,150
+19/10/2023,Keath,eating breakfast,High,Positive,20
+19/10/2023,Keath,Class,High,Positive,90
+19/10/2023,Keath,Lunch,High,Positive,30
+19/10/2023,Keath,Prepare to go out to school,High,Negative,30
+19/10/2023,Keath,Commute,Medium,Positive,90
+19/10/2023,Keath,class,High,Positive,150
+19/10/2023,Keath,Commute,Medium,Positive,120
+19/10/2023,Keath,Dinner,High,Positive,60
+19/10/2023,Keath,Chill time,Low,Positive,90
+19/10/2023,Keath,Do Assigned Task,High,Positive,120
+19/10/2023,Keath,Sleeping,High,Positive,420
+20/10/2023,Karl,Woke Up,Low,Positive,5
+20/10/2023,Karl,Took a Shower and dressing up for School,High,Positive,25
+20/10/2023,Karl,Ate Breakfast ,High,Positive,30
+20/10/2023,Karl,Getting Ready for School,Medium,Positive,20
+20/10/2023,Karl,Commuting,High,Neutral,100
+20/10/2023,Karl,School,High,Neutral,630
+20/10/2023,Karl,Commuting,Medium,Negative,100
+20/10/2023,Karl,Got home and dressing up for casual colthes,Medium,Negative,20
+20/10/2023,Karl,Ate Dinner,High,Neutral,30
+20/10/2023,Karl,Washing Dishes,Low,Neutral,30
+20/10/2023,Karl,Interval of 25mns Study and 5mns Break,High,Neutral,60
+20/10/2023,Karl,Getting ready for bed,Low,Neutral,20
+20/10/2023,Karl,Using Phone,Low,Neutral,10
+20/10/2023,Karl,Sleep,High,Neutral,360
+20/10/2023,Michael,Breakfast,High,Positive,30
+20/10/2023,Michael,Morning Class,Medium,Negative,240
+20/10/2023,Michael,Lunch,High,Positive,30
+20/10/2023,Michael,Afternoon Class,Medium,Negative,150
+20/10/2023,Michael,Dinner,High,Positive,90
+20/10/2023,Michael,Gaming,Low,Positive,114
+20/10/2023,Michael,Academic Tasks,Medium,Negative,120
+20/10/2023,Michael,GroupMeetings,Medium,Negative,120
+20/10/2023,Michael,Reading,Medium,Neutral,60
+20/10/2023,Keath,Do Assigned Task,High,Neutral,180
+20/10/2023,Keath,Morning Routine,High,Positive,60
+20/10/2023,Keath,Eating breakfast,High,Neutral,30
+20/10/2023,Keath,Prepare to go out to school,High,Positive,10
+20/10/2023,Keath,Commute,Medium,Neutral,90
+20/10/2023,Keath,class,High,Positive,150
+20/10/2023,Keath,Lunch,High,Positive,60
+20/10/2023,Keath,Chill time,Low,Positive,60
+20/10/2023,Keath,class,High,Positive,120
+20/10/2023,Keath,Commute,Medium,Positive,120
+20/10/2023,Keath,Chill time,Low,Positive,180
+20/10/2023,Keath,Dinner,High,Positive,60
+20/10/2023,Keath,Chill time,Low,Positive,120
+20/10/2023,Keath,Watch Movies,Low,Positive,60
+20/10/2023,Keath,Play Video Games,Low,Positive,240
+21/10/2023,Karl,Woke Up,Low,Positive,5
+21/10/2023,Karl,Took a Shower and dressing up for School,High,Positive,25
+21/10/2023,Karl,Ate Breakfast ,High,Positive,30
+21/10/2023,Karl,Getting Ready for School,Medium,Positive,20
+21/10/2023,Karl,Commuting,High,Neutral,100
+21/10/2023,Karl,School,High,Neutral,180
+21/10/2023,Karl,Wandering around the City,Low,Positive,210
+21/10/2023,Karl,Went Home/Commuting,Medium,Negative,100
+21/10/2023,Karl,Washing Clothes,Medium,Neutral,60
+21/10/2023,Karl,Using Phone,Low,Positive,20
+21/10/2023,Karl,Interval of 25mns Study and 5mns Break,High,Neutral,180
+21/10/2023,Karl,Ate Dinner,High,Neutral,30
+21/10/2023,Karl,Washing Dishes,Low,Neutral,30
+21/10/2023,Karl,Using Phone,Low,Neutral,60
+21/10/2023,Karl,Getting ready for bed,Low,Neutral,20
+21/10/2023,Karl,Using Phone,Low,Neutral,10
+21/10/2023,Karl,Sleep,High,Neutral,420
+21/10/2023,Michael,Lunch,High,Positive,60
+21/10/2023,Michael,Dinner,High,Positive,90
+21/10/2023,Michael,Gaming,Low,Negative,102
+21/10/2023,Michael,Academic Tasks,Medium,Negative,120
+21/10/2023,Michael,GroupMeetings,Medium,Negative,120
+21/10/2023,Michael,Reading,Medium,Positive,120
+21/10/2023,Keath,Work on Personal Projects,Medium,Positive,120
+21/10/2023,Keath,Sleeping,High,Positive,60
+21/10/2023,Keath,Morning Routine,High,Neutral,30
+21/10/2023,Keath,class,High,Neutral,90
+21/10/2023,Keath,Lunch,High,Positive,60
+21/10/2023,Keath,Chill time,Low,Positive,120
+21/10/2023,Keath,Commute,Medium,Positive,20
+21/10/2023,Keath,Chill time,Low,Positive,390
+21/10/2023,Keath,Commute,Low,Positive,20
+21/10/2023,Keath,Sleeping,High,Positive,490
+22/10/2023,Michael,Lunch,High,Positive,60
+22/10/2023,Michael,Dinner,High,Positive,90
+22/10/2023,Michael,Gaming,Low,Neutral,108
+22/10/2023,Michael,Academic Tasks,Medium,Neutral,240
+22/10/2023,Michael,GroupMeetings,Medium,Negative,150
+22/10/2023,Michael,Reading,Medium,Neutral,120
+22/10/2023,Keath,Dinner,High,Positive,60
+22/10/2023,Keath,Morning Routine,High,Neutral,30
+22/10/2023,Keath,Chill time,Low,Positive,30
+22/10/2023,Keath,Commute,Low,Positive,20
+22/10/2023,Keath,Lunch,Low,Positive,90
+22/10/2023,Keath,Commute,Low,Positive,20
+22/10/2023,Keath,Chill time,Low,Positive,90
+22/10/2023,Keath,Play Video Games,Low,Positive,390
+22/10/2023,Keath,Sleeping,High,Positive,330
+23/10/2023,Michael,Morning Class,Medium,Negative,240
+23/10/2023,Michael,Lunch,High,Positive,30
+23/10/2023,Michael,Afternoon Class,Medium,Negative,270
+23/10/2023,Michael,Dinner,High,Positive,90
+23/10/2023,Michael,Gaming,Low,Positive,90
+23/10/2023,Michael,Academic Tasks,Medium,Negative,120
+23/10/2023,Michael,GroupMeetings,Medium,Negative,150
+23/10/2023,Michael,Reading,Medium,Positive,120
+23/10/2023,Keath,Morning Routine,High,Neutral,60
+23/10/2023,Keath,Eating breakfast,High,Neutral,20
+23/10/2023,Keath,Prepare to go out to school,High,Negative,10
+23/10/2023,Keath,Commute,Medium,Neutral,90
+23/10/2023,Keath,class,High,Neutral,150
+23/10/2023,Keath,Lunch,High,Positive,60
+23/10/2023,Keath,Chill time,Low,Positive,60
+23/10/2023,Keath,Class,High,Positive,120
+23/10/2023,Keath,Commute,High,Neutral,90
+23/10/2023,Keath,Do Assigned Task,High,Positive,180
+23/10/2023,Keath,Dinner,High,Positive,60
+23/10/2023,Keath,Do Assigned Task,High,Positive,180
+23/10/2023,Keath,Sleeping,High,Positive,480
