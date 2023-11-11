@@ -73,10 +73,26 @@ activity_group_duration_main_chart = filtered_data_main_chart.groupby('ActivityG
 
 # Plotting a treemap in Streamlit for the main chart
 fig_main_chart = px.treemap(activity_group_duration_main_chart, path=['ActivityGroup'], values='Duration(Minutes)', title=title_main_chart)
-fig_main_chart.update_layout(width=700, height=700)
+
+# Calculate the percentage of each slice
+percentage_labels_main_chart = (activity_group_duration_main_chart['Duration(Minutes)'] / activity_group_duration_main_chart['Duration(Minutes)'].sum()) * 100
+
+# Add percentage labels and activity names to the treemap chart
+fig_main_chart.update_traces(
+    hoverinfo='label+percent entry+text',
+    text=activity_group_duration_main_chart['ActivityGroup'],
+    textinfo='percent entry+text',
+    textposition='middle center',
+    insidetextfont=dict(size=15),  # You can adjust the font size as needed
+    customdata=percentage_labels_main_chart,
+)
+
+# Set the size of the chart for the main chart
+fig_main_chart.update_layout(width=900, height=900)
 
 # Render the treemap in Streamlit for the main chart
 st.plotly_chart(fig_main_chart)
+
 
 # Add a button to cycle through different views for the productivity chart
 button_productivity_chart = st.button("Cycle Through Views (Productivity Chart)")
@@ -129,17 +145,22 @@ fig_productivity_chart.update_layout(width=500, height=500)
 # Render the pie chart in Streamlit for the productivity chart
 st.plotly_chart(fig_productivity_chart)
 
-# Line chart for schoolwork activities duration over time for the productivity chart
 if 'Class/School Work' in data['ActivityGroup'].unique():
-    schoolwork_data_productivity_chart = filtered_data_productivity_chart[filtered_data_productivity_chart['ActivityGroup'] == 'Class/School Work']
+    schoolwork_data_productivity_chart = filtered_data_productivity_chart[
+        (filtered_data_productivity_chart['ActivityGroup'] == 'Class/School Work') &
+        (filtered_data_productivity_chart['Date'] >= '2023-10-10') &
+        (filtered_data_productivity_chart['Date'] <= '2023-10-21')
+    ]
 
-    # Group data by date and calculate total duration for schoolwork activities
-    schoolwork_duration_per_date_productivity_chart = schoolwork_data_productivity_chart.groupby('Date')['Duration(Minutes)'].sum().reset_index()
+    if not schoolwork_data_productivity_chart.empty:
+        schoolwork_duration_per_date_productivity_chart = schoolwork_data_productivity_chart.groupby('Date')[
+            'Duration(Minutes)'].sum().reset_index()
 
-    # Plot line chart for the productivity chart
-    fig_schoolwork_chart = px.line(schoolwork_duration_per_date_productivity_chart, x='Date', y='Duration(Minutes)',
-                                   title='Schoolwork Activities Duration Over Time for the Productivity Chart')
-    st.plotly_chart(fig_schoolwork_chart)
+        fig_schoolwork_chart = px.line(schoolwork_duration_per_date_productivity_chart, x='Date', y='Duration(Minutes)',
+                                       title='Week Productivity Trend')
+        st.plotly_chart(fig_schoolwork_chart)
+    else:
+        st.warning("No data available for Schoolwork activities for the specified date range (Oct 10 - Oct 21).")
 else:
     st.warning("No data available for Schoolwork activities for the Productivity Chart.")
 
