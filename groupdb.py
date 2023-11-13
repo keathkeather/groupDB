@@ -3,12 +3,10 @@ import streamlit as st
 import plotly.express as px
 
 # Load the data from the CSV file
-file_path = "GroupData.csv"
+file_path = "GroupData2.csv"
 data = pd.read_csv(file_path)
-
 # Convert the 'Date' column to datetime format with the correct format
 data['Date'] = pd.to_datetime(data['Date'], format='%d/%m/%Y')
-
 # Convert 'Value' column to categorical with specific order
 value_order = ['Low', 'Medium', 'High']
 data['Value'] = pd.Categorical(data['Value'], categories=value_order, ordered=True)
@@ -29,14 +27,14 @@ personal_hygiene_activities_streamlit = [
 leisure_activities = [
     'Drove to Mall', 'Wandering in the Mall', 'Went Shopping', 'Using Phone',
     'Workout', 'Chill time', 'Gaming', 'Work on Personal Projects', 'Setup Notion',
-    'Play Video Games', 'Watch Anime', 'Wandering around the City', 'Watch Movies', 'Read Manga'
+    'Play Video Games', 'Watch Anime', 'Wandering around the City', 'Watch Movies', 'Read Manga','Reading'
 ]
 meal_activities = ['Ate Breakfast', 'Ate Lunch', 'Ate Dinner', 'lunch', 'Dinner', 'Lunch', 'Dinner', 'Eating breakfast', 'Breakfast']
 commuting_activities = ['Drove to Church', 'Drove to Mall', 'Went Home', 'Commuting', 'commute', 'Commute', 'Went Home/Commuting']
 sleep_activities = ['Sleep', 'Sleeping']
 school_activities = [
     'Interval of 25mns Study and 5mns Break', 'Doing Activities', 'School', 'Class', 'Academic Tasks',
-    'GroupMeetings', 'Reading', 'Do Assigned Task', 'LoungeDuty', 'Morning Class', 'Afternoon Class'
+    'GroupMeetings', 'Do Assigned Task', 'LoungeDuty', 'Morning Class', 'Afternoon Class'
 ]
 
 # Create a new column 'ActivityGroup' based on the type of activity
