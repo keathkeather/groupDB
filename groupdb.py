@@ -46,6 +46,89 @@ data['ActivityGroup'] = data['Activity'].apply(lambda x: 'Personal Hygiene/Self-
                                                else 'Class/School Work' if x in school_activities
                                                else 'Other Activities')
 
+# Create a new column 'Productivity' based on the type of activity
+productive_activities = [
+    'Workout', 'Work on Personal Projects', 'Setup Notion', 'Reading Manga',
+    'Ate Breakfast', 'Ate Lunch', 'Ate Dinner', 'lunch', 'Dinner', 'Lunch', 'Dinner', 'Eating breakfast', 'Breakfast',
+    'Sleep', 'Seeping',
+    'Interval of 25mns Study and 5mns Break', 'Doing Activities', 'School', 'Class', 'Academic Tasks',
+    'Group Meetings', 'Reading', 'Do Assigned Task', 'Lounge Duty', 'Morning Class', 'Afternoon Class'
+]
+
+non_productive_activities = [
+    'Drove to Mall', 'Wandering in the Mall', 'Went Shopping', 'Using Phone',
+    'Chill time', 'Gaming', 'Play Video Games', 'Watch Anime', 'Wandering around the City',
+    'Watch Movies', 'Drove to Church', 'Drove to Mall', 'Went Home', 'Commuting', 'Commute', 'commute',
+    'commute', 'Commute', 'Went Home/Commuting'
+]
+
+data['Productivity'] = data['Activity'].apply(lambda x: 'Productive' if x in productive_activities
+                                                else 'Not Productive' if x in non_productive_activities
+                                                else 'Other')
+
+
+# Calculate the total average of sleep
+total_sleep_duration = data[data['ActivityGroup'] == 'Sleep']['Duration(Minutes)'].sum()
+total_sleep_entries = data[data['ActivityGroup'] == 'Sleep']['Duration(Minutes)'].count()
+average_sleep_duration = total_sleep_duration / total_sleep_entries
+
+# Calculate the total average of leisure
+average_leisure_duration = data[data['ActivityGroup'] == 'Leisure Activities']['Duration(Minutes)'].mean()
+
+# Calculate the total average of productive hours spent
+total_productive_duration = data[data['Productivity'] == 'Productive']['Duration(Minutes)'].sum()
+total_productive_entries = data[data['Productivity'] == 'Productive']['Duration(Minutes)'].count()
+average_productive_duration = total_productive_duration / total_productive_entries
+
+# Calculate the percentage of productivity
+total_time = data['Duration(Minutes)'].sum()
+productivity_percentage = (total_productive_duration / total_time) * 100
+
+# Apply custom CSS
+custom_css = """
+    .info-box-container {
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .info-box {
+        flex: 1;
+        max-width: calc(25% - 20px);  /* Adjust as needed */
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px #aaa;
+        background-color: #f0f0f0;
+    }
+"""
+st.markdown(f'<style>{custom_css}</style>', unsafe_allow_html=True)
+
+# Display the information in separate boxes using custom CSS
+# Create four columns
+col1, col2, col3, col4 = st.columns(4)
+
+# Display the information in separate boxes
+st.subheader("Dashboard Summary")
+
+# Box for Average Sleep Duration in column 1
+with col1:
+    st.markdown(f'🛌 <b>Total Average Sleep Duration:</b> {average_sleep_duration:.2f} minutes', unsafe_allow_html=True)
+
+# Box for Average Leisure Time in column 2
+with col2:
+    st.markdown(f'🎮 <b>Total Average Leisure Time:</b> {average_leisure_duration:.2f} minutes', unsafe_allow_html=True)
+
+# Box for Average Productive Time in column 3
+with col3:
+    st.markdown(f'🚀 <b>Total Average Productive Time:</b> {average_productive_duration:.2f} minutes', unsafe_allow_html=True)
+
+# Box for Productivity Percentage in column 4
+with col4:
+    st.markdown(f'💼 <b>Productivity Percentage:</b> {productivity_percentage:.2f}%', unsafe_allow_html=True)
+
+st.markdown('</div>', unsafe_allow_html=True)
 # Add a button to cycle through different views for the main chart
 button_main_chart = st.button("Cycle Through Views (Main Chart)")
 
@@ -194,3 +277,19 @@ fig_sentiment_profiles.update_layout(width=800, height=500, barmode='stack', xax
 
 # Render the chart in Streamlit for sentiment profiles
 st.plotly_chart(fig_sentiment_profiles)
+
+
+# Calculate the average duration of sleep
+average_sleep_duration = data[data['ActivityGroup'] == 'Sleep']['Duration(Minutes)'].mean()
+
+# Calculate the productivity percentage for the entire group
+total_productive_time = data[data['Productivity'] == 'Productive']['Duration(Minutes)'].sum()
+total_non_productive_time = data[data['Productivity'] == 'Not Productive']['Duration(Minutes)'].sum()
+total_time = data['Duration(Minutes)'].sum()
+productivity_percentage = (total_productive_time / total_time) * 100
+
+# Calculate the average duration of leisure activities
+average_leisure_duration = data[data['ActivityGroup'] == 'Leisure Activities']['Duration(Minutes)'].mean()
+
+# Calculate the average duration of productive work
+average_productive_duration = data[data['Productivity'] == 'Productive']['Duration(Minutes)'].mean()
